@@ -22,6 +22,7 @@ dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation("com.google.dagger:dagger:2.21")
     kapt("com.google.dagger:dagger-compiler:2.21")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.20")
 }
 
 tasks.withType<KotlinCompile> {
